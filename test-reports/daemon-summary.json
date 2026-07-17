@@ -1,0 +1,16 @@
+{
+  "lastUpdated": "2026-07-17T17:53:23.201Z",
+  "totalCycles": 1,
+  "totalEvaluations": 31,
+  "totalAnomalies": 0,
+  "totalDiscoveries": 0,
+  "bestByModel": {
+    "easy": {
+      "fitness": 0,
+      "bic": 2.995732273553991,
+      "params": {
+        "x": 0
+      }
+    }
+  }
+}

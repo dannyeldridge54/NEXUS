@@ -1,0 +1,449 @@
+{
+  "cycle": 1,
+  "timestamp": "2026-07-17T17:53:23.152Z",
+  "results": [
+    {
+      "model": "rosenbrock",
+      "totalEvaluations": 139,
+      "bestFit": {
+        "params": {
+          "x": 1.2129517270399028,
+          "y": 1.5111183167025324
+        },
+        "fitness": 0.20428161887633084,
+        "bic": 6.195746165984312,
+        "constraints": {
+          "allSatisfied": true,
+          "violations": []
+        },
+        "timestamp": "2026-07-17T17:53:23.150Z"
+      },
+      "anomalies": [
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -5,
+            "y": -5
+          },
+          "fitness": 90036,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -5,
+            "y": -1.6666666666666665
+          },
+          "fitness": 71147.11111111112,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -5,
+            "y": 1.666666666666667
+          },
+          "fitness": 54480.44444444444,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -5,
+            "y": 5
+          },
+          "fitness": 40036,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -1.6666666666666665,
+            "y": -5
+          },
+          "fitness": 6056.493827160492,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -1.6666666666666665,
+            "y": 5
+          },
+          "fitness": 500.9382716049385,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 1.666666666666667,
+            "y": -5
+          },
+          "fitness": 6049.827160493828,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 1.666666666666667,
+            "y": 5
+          },
+          "fitness": 494.27160493827125,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 5,
+            "y": -5
+          },
+          "fitness": 90016,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 5,
+            "y": -1.6666666666666665
+          },
+          "fitness": 71127.11111111112,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 5,
+            "y": 1.666666666666667
+          },
+          "fitness": 54460.44444444444,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": 5,
+            "y": 5
+          },
+          "fitness": 40016,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "constraint_violation",
+          "severity": 0.3,
+          "description": "Constraints violated: outside_circle",
+          "params": {
+            "x": -3.366980402222961,
+            "y": 4.27387166717272
+          },
+          "fitness": 5007.22296978464,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "statistical_outlier",
+          "severity": 0.46514194214971366,
+          "description": "Statistical outlier: Z-score = 4.65 (threshold: 3)",
+          "params": {
+            "x": -5,
+            "y": -5
+          },
+          "fitness": 90036,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "statistical_outlier",
+          "severity": 0.36081664714545836,
+          "description": "Statistical outlier: Z-score = 3.61 (threshold: 3)",
+          "params": {
+            "x": -5,
+            "y": -1.6666666666666665
+          },
+          "fitness": 71147.11111111112,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "statistical_outlier",
+          "severity": 0.4650314800726504,
+          "description": "Statistical outlier: Z-score = 4.65 (threshold: 3)",
+          "params": {
+            "x": 5,
+            "y": -5
+          },
+          "fitness": 90016,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "statistical_outlier",
+          "severity": 0.360706185068395,
+          "description": "Statistical outlier: Z-score = 3.61 (threshold: 3)",
+          "params": {
+            "x": 5,
+            "y": -1.6666666666666665
+          },
+          "fitness": 71127.11111111112,
+          "timestamp": "2026-07-17T17:53:23.148Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.10160859449049116,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 1118.43",
+          "params": {
+            "x": -0.490793436971597,
+            "y": -0.2685375796890943
+          },
+          "fitness": 28.17290850459051,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.6124340742643736,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 5472.46",
+          "params": {
+            "x": -0.4704443380187823,
+            "y": -0.340054296686885
+          },
+          "fitness": 33.67607808518438,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.13405647690030306,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 1462.54",
+          "params": {
+            "x": -0.06293857821431637,
+            "y": 0.033673504811214894
+          },
+          "fitness": 1.218120142728919,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.13995824281107316,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 7667.49",
+          "params": {
+            "x": 0.07777265936556949,
+            "y": -0.2685375796890943
+          },
+          "fitness": 8.390259536516048,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.2660763454133059,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 3155.19",
+          "params": {
+            "x": 0.13274406844137332,
+            "y": -0.5401186704853503
+          },
+          "fitness": 31.8594854828051,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.45818979374571295,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 7477.38",
+          "params": {
+            "x": 0.17255264994995484,
+            "y": -0.340054296686885
+          },
+          "fitness": 14.361996864185897,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.1542161656121853,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 1913.99",
+          "params": {
+            "x": 0.3003040357817299,
+            "y": -0.026601065137652702
+          },
+          "fitness": 1.8534148757864002,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.7187195595592583,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 6257.32",
+          "params": {
+            "x": 0.815549637918692,
+            "y": -0.340054296686885
+          },
+          "fitness": 101.07180224423374,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.1002391525108577,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 2588.88",
+          "params": {
+            "x": 1.2129517270399028,
+            "y": 1.5111183167025324
+          },
+          "fitness": 0.20428161887633084,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 1,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 155740.61",
+          "params": {
+            "x": 1.2149048520399028,
+            "y": -0.2685375796890943
+          },
+          "fitness": 304.385157396494,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.18678467887267478,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 2941.56",
+          "params": {
+            "x": 1.3218394432605431,
+            "y": -0.026601065137652702
+          },
+          "fitness": 314.76171596371665,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 0.14362151968516415,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 4413.81",
+          "params": {
+            "x": 1.4585466258874291,
+            "y": -0.340054296686885
+          },
+          "fitness": 609.0227374422584,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        },
+        {
+          "type": "gradient_spike",
+          "severity": 1,
+          "description": "Sharp gradient detected: Δfitness/Δparam = 102373.89",
+          "params": {
+            "x": 1.6727277502014324,
+            "y": -0.5401186704853503
+          },
+          "fitness": 1114.768290027085,
+          "timestamp": "2026-07-17T17:53:23.150Z"
+        }
+      ],
+      "discoveries": [],
+      "correlations": [
+        {
+          "param1": "x",
+          "param2": "y",
+          "pearsonR": -0.013165860168910894,
+          "isDegeneracy": false
+        }
+      ],
+      "pathHistory": [
+        {
+          "phase": "grid",
+          "fitness": 123.90123456790134,
+          "params": {
+            "x": 1.666666666666667,
+            "y": 1.666666666666667
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0.9022590977210287,
+          "params": {
+            "x": 1.013586705781414,
+            "y": 1.1223356127148498
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "zoom",
+          "fitness": 3.7332929717195182,
+          "params": {
+            "x": 0.9027359093214029,
+            "y": 1.0079044689191385
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "zoom",
+          "fitness": 2.874212627315827,
+          "params": {
+            "x": -0.4704443380187823,
+            "y": 0.30569832765578964
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0.2067509590883767,
+          "params": {
+            "x": 1.2149048520399028,
+            "y": 1.4359230042025324
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "zoom",
+          "fitness": 1.8534148757864002,
+          "params": {
+            "x": 0.3003040357817299,
+            "y": -0.026601065137652702
+          },
+          "evaluations": 16
+        },
+        {
+          "phase": "optimize",
+          "fitness": 0.20428161887633084,
+          "params": {
+            "x": 1.2129517270399028,
+            "y": 1.5111183167025324
+          },
+          "evaluations": 1
+        },
+        {
+          "phase": "explore",
+          "fitness": 122.69311543004363,
+          "params": {
+            "x": -1.2181365649437481,
+            "y": 2.569089318492315
+          },
+          "evaluations": 2
+        },
+        {
+          "phase": "anomaly_chase",
+          "fitness": 17.896755808546267,
+          "params": {
+            "x": -0.39231397746422975,
+            "y": -0.24556712162851088
+          },
+          "evaluations": 40
+        }
+      ],
+      "elapsedMs": 3,
+      "generatedAt": "2026-07-17T17:53:23.152Z"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "cycle": 1,
+  "timestamp": "2026-07-17T17:53:10.409Z",
+  "results": [
+    {
+      "model": "easy",
+      "totalEvaluations": 31,
+      "bestFit": {
+        "params": {
+          "x": 0
+        },
+        "fitness": 0,
+        "bic": 2.995732273553991,
+        "constraints": {
+          "allSatisfied": true,
+          "violations": []
+        },
+        "timestamp": "2026-07-17T17:53:10.406Z"
+      },
+      "anomalies": [],
+      "discoveries": [],
+      "correlations": [],
+      "pathHistory": [
+        {
+          "phase": "grid",
+          "fitness": 0,
+          "params": {
+            "x": 0
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0,
+          "params": {
+            "x": 0.35857864376269044
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0,
+          "params": {
+            "x": 0.39607695154586736
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0,
+          "params": {
+            "x": 0.41346676938886423
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0,
+          "params": {
+            "x": 0.4240673983061294
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "zoom",
+          "fitness": 0,
+          "params": {
+            "x": 0.43140801679496354
+          },
+          "evaluations": 5
+        },
+        {
+          "phase": "explore",
+          "fitness": 0,
+          "params": {
+            "x": 0.8721316029725275
+          },
+          "evaluations": 1
+        }
+      ],
+      "elapsedMs": 2,
+      "generatedAt": "2026-07-17T17:53:10.409Z"
+    }
+  ]
+}
