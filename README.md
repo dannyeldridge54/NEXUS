@@ -210,6 +210,7 @@ NEXUS has **zero runtime dependencies**. Pure TypeScript. Runs anywhere Node.js 
 
 | Tier | Price | Academic (30% off) |
 |------|-------|-------------------|
+| **Student** | **FREE** | .edu email required |
 | Individual | $99/year | $69/year |
 | Team (5) | $399/year | $279/year |
 | Enterprise (unlimited) | $1,999/year | $1,399/year |
